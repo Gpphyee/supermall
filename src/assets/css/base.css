@@ -1,0 +1,24 @@
+@import "./normallize.css";
+/* :root -> 获取根元素 html */
+:root {
+    --color-text:#666;
+    --color-high-text:#ff5777;
+    --color-tint:#ff8198;
+    --olor-background:#fff;
+    --font-size:14px;
+    --line-height: 1.5;
+
+    /* css中定义变量:--font-size */
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* font-family:  */
+}
+
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
